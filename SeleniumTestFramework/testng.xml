@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" verbose="2">
+	<listeners>
+		<listener class-name="com.test.listeners.MethodInvocationListener" />
+	</listeners>   
+  <test name="FrameworkTest">
+	 <classes>
+      <class name="com.test.App.Test.GooglePageTest">
+      </class> <!-- SampleTest.Test1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

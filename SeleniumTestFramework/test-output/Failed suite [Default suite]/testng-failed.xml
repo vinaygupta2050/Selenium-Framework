@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <listeners>
+    <listener class-name="com.test.listeners.MethodInvocationListener"/>
+  </listeners>
+  <test name="FrameworkTest(failed)">
+    <classes>
+      <class name="com.test.App.Test.GooglePageTest">
+        <methods>
+          <include name="verifyGoogleSearchFunctionality"/>
+        </methods>
+      </class> <!-- com.test.App.Test.GooglePageTest -->
+    </classes>
+  </test> <!-- FrameworkTest(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
