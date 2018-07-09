@@ -5,7 +5,7 @@
     <classes>
       <class name="com.test.App.Test.GooglePageTest">
         <methods>
-          <include name="verifyGoogleSearchFunctionality"/>
+          <include name="testDataProvider"/>
         </methods>
       </class> <!-- com.test.App.Test.GooglePageTest -->
     </classes>
